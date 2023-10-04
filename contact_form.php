@@ -80,7 +80,7 @@ function sendMail($conn, $data, $ip)
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'anshvimalik626@gmail.com';
-    $mail->Password = 'dqlveanvtphfyvmp';
+    $mail->Password = 'xyz';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
     $mail->setFrom('anshvimalik626@gmail.com', 'Anshvi');
